@@ -1,0 +1,31 @@
+{
+  "name": "yy-api",
+  "version": "1.0.0",
+  "description": "丫丫扫码点餐数据API子系统",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node  ./index.js",
+    "dev":"node-dev ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liu-bs/yy-api.git"
+  },
+  "author": "lihui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liu-bs/yy-api/issues"
+  },
+  "homepage": "https://github.com/liu-bs/yy-api#readme"
+}
