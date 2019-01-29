@@ -19,7 +19,7 @@
         })
     }
     bt2.onclick=function(){
-        var data = {aname:"admin",oldPwd:"6666",newPwd:"1111"};
+        var data = {aname:"admin",oldPwd:"1111",newPwd:"6666"};
         axios.patch('http://127.0.0.1:8091/admin',data).then((result)=>{
             console.log(result.data)
         }).catch((err)=>{
