@@ -56,7 +56,11 @@ router.post('/',(req,res)=>{
     console.log(req.body)
     pool.query('insert into xfn_category set ?',data,(err,result)=>{
         if(err)throw err;
-        res.send({code:200,msg:"1 category added"});
+        res.send({code:200,
+            msg:"1 category added",
+            cid:result.insertId
+            
+        });
       
     })
 })
@@ -85,3 +89,12 @@ router.put('/',(req,res)=>{
         }
     })
 })
+
+
+
+
+
+
+
+
+
